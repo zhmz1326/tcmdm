@@ -1,0 +1,227 @@
+.main{
+  .logo-con{
+    height: 64px;
+    padding: 10px;
+    img{
+      height: 44px;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .header-con{
+    background: #fff;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .main-layout-con{
+    height: 100%;
+    overflow: hidden;
+  }
+  .main-content-con{
+    height: ~"calc(100% - 60px)";
+    overflow: hidden;
+  }
+  .tag-nav-wrapper{
+    padding: 0;
+    height:40px;
+    background:#F0F0F0;
+  }
+  .content-wrapper{
+    padding: 18px;
+    overflow: auto;
+    position: relative;
+    height:calc(100% - 80px);
+  }
+  .left-sider{
+    overflow: hidden;
+    .ivu-layout-sider-children{
+      overflow-y: scroll;
+      margin-right: -18px;
+    }
+  }
+}
+.ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+  margin-right: 8px !important;
+}
+.collased-menu-dropdown{
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  padding: 7px 0 6px 16px;
+  clear: both;
+  font-size: 12px !important;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  &:hover{
+    background: rgba(100, 100, 100, 0.1);
+  }
+  & * {
+    color: #515a6e;
+  }
+  .ivu-menu-item > i{
+    margin-right: 12px !important;
+  }
+  .ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+    margin-right: 8px !important;
+  }
+}
+
+.ivu-select-dropdown.ivu-dropdown-transfer{
+  max-height: 400px;
+}
+
+.menu-collapsed >.ivu-dropdown,.ivu-tooltip{
+  width: 100%;
+  .drop-menu-a{
+    display: inline-block;
+    padding: 6px 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.search-con{
+  padding:0 0 10px 0;
+  .search{
+    &-col{
+      display: inline-block;
+      width: 200px;
+    }
+    &-input{
+      display: inline-block;
+      width: 200px;
+      margin-left: 2px;
+    }
+    &-btn{
+      margin-left: 2px;
+    }
+  }
+  .add {
+    &-btn{
+      margin-left: 4px;
+    }
+  }
+}
+.page-custom-ui{
+  margin: 10px 0px;
+  text-align:center;
+}
+
+.nickname-ui{
+  display:flex;align-items:center;white-space: nowrap;
+}
+.nickname-ui img{
+     width:35px;border-radius:50%;margin:5px;
+     border:1px solid #f9f9f9;
+     background:#ccc;
+}
+
+.custom-img-border{
+	width:70px;height:70px;overflow:hidden;
+	display:flex;align-items:center;justify-content:center;
+	margin:3px auto;
+}
+.custom-img-border img{
+	width:100%;
+	border:1px solid #f9f9f9;
+	border-radius:5%;
+}
+
+.item-img-border{
+    overflow:hidden;
+	display:flex;align-items:center;justify-content:center;
+	margin:3px auto;
+	max-height:70px;
+}
+.item-img-border img{
+   width:100%;
+   border:1px solid #f9f9f9;
+   border-radius:5%;
+}
+.hide-text .ivu-tooltip-rel{
+   white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.my-tooltip{
+   white-space: 'normal';
+   word-break: 'break-all'
+}
+.ivu-tooltip-content .nickname-ui img{
+   width:25px;
+   margin:0px 3px 0px 0px;
+}
+.ivu-tooltip-content .nickname-ui{
+   font-size:12px;
+}
+.heng-line{
+   border:1px solid #eee;
+}
+.default-account {
+   background: #4caf50;
+   padding: 2px 3px;
+   color: #fff;
+   border-radius: 3px;
+   font-size: 11px;
+   margin-left: 5px;
+}
+.form_container{
+   max-height: 400px;
+}
+.upload_media{
+   max-height: 70px;
+   border: 1px solid #f7f0f0;
+   border-radius: 5px;
+   padding: 3px;
+}
+.image-container{
+   display:flex;
+}
+.custom-img-container{
+   max-height: 70px;
+   margin: 5px;
+   border-radius: 5%;
+}
+.text-container{
+   overflow:hidden;
+   word-break:break-all;
+   word-wrap:break-word;
+}
+div.v-dropdown-caller.v-dropdown-caller--full-width.selectpage-select{
+   display:inline-block;
+   width: 120px;
+   overflow:hidden;
+   white-space:nowrap;
+   box-sizing: border-box;
+   vertical-align: middle;
+}
+.import-file {
+  position: relative;
+  display: inline-block;
+  background: #d0eeff;
+  border: 1px solid #99d3f5;
+  border-radius: 4px;
+  padding: 4px 12px;
+  overflow: hidden;
+  color: #1e88c7;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+}
+.import-file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.import-file:hover {
+  background: #aadffd;
+  border-color: #78c3f3;
+  color: #004974;
+  text-decoration: none;
+}
+.import-file-error{
+  color: #ff2525;
+}

@@ -1,0 +1,14 @@
+/backend/.idea/.gitignore
+/backend/.idea/backend.iml
+/backend/.idea/inspectionProfiles/profiles_settings.xml
+/backend/.idea/misc.xml
+/backend/.idea/modules.xml
+/backend/.idea/vcs.xml
+/backend/apriori/__pycache__/__init__.cpython-36.pyc
+/backend/apriori/__pycache__/api.cpython-36.pyc
+/backend/bk/__pycache__/__init__.cpython-36.pyc
+/backend/bk/__pycache__/api.cpython-36.pyc
+/backend/bk/__pycache__/bkalgorithm.cpython-36.pyc
+/backend/bk/__pycache__/graph.cpython-36.pyc
+/backend/util/__pycache__/consts.cpython-36.pyc
+/backend/util/__pycache__/utils.cpython-36.pyc
