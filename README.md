@@ -4,26 +4,25 @@ TCMDM是实现了Apriori关联规则分析（A）、Bron-Kerbosch极大团分析
 
 TCMDM由前后端构成。
 
-# 运行方法 - 前端
+## 最新发布版本以及运行方法：
+https://github.com/zhmz1326/tcmdm/releases/tag/v1.0
 
+## 对于开发者运行方法如下：
+#### 运行方法 - 前端
 - 进入frontend目录
 - 运行以下命令
-
 ```
     npm install --registry=https://registry.npm.taobao.org
 
     npm run dev
 ```
-
-# 运行方法 - 后端
+#### 运行方法 - 后端
 - 进入backend目录
 - 运行以下命令
-
 ```
     python app.py
 ```
-
-# 运行环境
+#### 运行环境
 - 前端：
     node.js >= 6.0.0
 - 后端：
